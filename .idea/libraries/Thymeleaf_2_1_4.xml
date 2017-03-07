@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Thymeleaf-2.1.4" type="thymeleaf">
+    <properties version="2.1.4" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-spring4-2.1.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-2.1.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-2.1.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-spring4-2.1.4.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-2.1.4.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-spring4-2.1.4.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

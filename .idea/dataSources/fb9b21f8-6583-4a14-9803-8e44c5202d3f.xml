@@ -1,0 +1,47 @@
+<dataSource name="MySQL - test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="test">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="bookmanager" />
+    <schema id="3" name="gala" />
+    <schema id="4" name="galaxia" />
+    <schema id="5" name="gazovik" />
+    <schema id="6" name="information_schema" />
+    <schema id="7" name="mysql" />
+    <schema id="8" name="performance_schema" />
+    <schema id="9" name="taskmanager" />
+    <table id="10" parent="1" name="user" />
+    <column id="11" parent="10" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="12" parent="10" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(25)|0</data-type>
+    </column>
+    <column id="13" parent="10" name="age">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="14" parent="10" name="isAdmin">
+      <mandatory>1</mandatory>
+      <data-type>bit(1)|0</data-type>
+    </column>
+    <column id="15" parent="10" name="createdDate">
+      <mandatory>1</mandatory>
+      <data-type>timestamp|0</data-type>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
+    </column>
+    <index id="16" parent="10" name="id">
+      <columns>id</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <key id="17" parent="10" name="id">
+      <columns>id</columns>
+      <underlying-index>id</underlying-index>
+    </key>
+  </database-model>
+</dataSource>
